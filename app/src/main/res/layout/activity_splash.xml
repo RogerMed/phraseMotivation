@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SplashActivity"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/GoStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/vamos_comecar"
+        android:textSize="32sp"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Qual seu nome?"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textColorHint="@color/colorWhite"
+        android:inputType="text"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"
+        android:padding="16dp"
+        android:text="@string/salvar"
+        android:textColor="@color/colorWhite" />
+
+
+
+</RelativeLayout>
